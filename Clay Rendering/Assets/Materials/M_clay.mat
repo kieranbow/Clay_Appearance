@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_clay
+  m_Shader: {fileID: 4800000, guid: c76b074d77ad4c48a51ad88f290b8792, type: 3}
+  m_ShaderKeywords: _ENABLE_IBL_ON _FLIP_NORM_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BRDFLut:
+        m_Texture: {fileID: 2800000, guid: 97027d90f46784f478ca7c2d349246f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 7afb4ac930becd146b9befb8dbaee5bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalTex:
+        m_Texture: {fileID: 2800000, guid: 73c13d1ddd9eeab43982f7583ca49d3b, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e732af95ee1f86147800c88eb00085a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 9114d37b298c1d3429204845685caef5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _layer1_MetalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _layer1_RoughTex:
+        m_Texture: {fileID: 2800000, guid: 04f849d5546829a41bb104f5c4fc87f2, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _layer2_MetalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _layer2_RoughTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient_occlusion: 1
+    - _ClearCoat: 1
+    - _ClearCoatGloss: 0.169
+    - _Density: 0.133
+    - _Desaturate: 1
+    - _DetailedNormAmount: 1
+    - _Enable_IBL: 1
+    - _Flip_diffuse: 0
+    - _Flip_norm: 1
+    - _Intensity: 1
+    - _Metallic: 0
+    - _Normal_intensity: 1
+    - _Roughness: 1
+    - _Specular: 0.5
+    - _Test: 1
+    - _ior: 1.085
+    - _layer1_ior: 1.33
+    - _layer1_roughness: 1
+    - _layer1_specular: 0.5
+    - _layer2_ior: 1.46
+    - _layer2_roughness: 0.753
+    - _layer2_specular: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 0.6, b: 0.4745098, a: 1}
+  m_BuildTextureStacks: []

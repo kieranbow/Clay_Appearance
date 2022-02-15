@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c76b074d77ad4c48a51ad88f290b8792
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _NormalTex: {instanceID: 0}
+  - _BRDFLut: {fileID: 2800000, guid: fccc8f9794b16cb47b11a65c564cebec, type: 3}
+  - _DetailNormalTex: {instanceID: 0}
+  - _layer1_RoughTex: {instanceID: 0}
+  - _layer2_RoughTex: {instanceID: 0}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
