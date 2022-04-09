@@ -75,7 +75,7 @@ Material:
     m_Floats:
     - _Ambient_occlusion: 1
     - _BumpScale: 1
-    - _ClearCoat: 0.062
+    - _ClearCoat: 0.049
     - _ClearCoatGloss: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
